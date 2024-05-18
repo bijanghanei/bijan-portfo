@@ -7,7 +7,7 @@
 body {
   font-family: "Andale Mono", monospace;
   background-color: #182833;
-  color: goldenrod;
+  color: rgb(177, 127, 0);
   line-height: 1.2;
 }
 nav ul.nav-links{
@@ -41,9 +41,19 @@ a.external-links {
 a.external-links::before {
     content: '> ';
 }
+a.project-link{
+    padding-left: 3rem;
+    text-decoration: underline;
+}
+a.project-link::before{
+    content: '> ';
+}
 p{
     font-size: 1rem;
     margin-bottom: 1rem;
+}
+p.project-description{
+    padding-left: 3rem;
 }
 footer {
     margin-top: 5rem;
